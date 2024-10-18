@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Lobster&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Lobster&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+//fonts_variable
+$stylis: "Lobster", sans-serif;
+$highlight: "Lexend", sans-serif;
+$inform: "Roboto", sans-serif;
+
+//color_panel
+$light: #F4F6FF;
+$primaly: #FFB22C;
+$secoundary: #F3C623;
+$dark: #343131;
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-family: $inform;
+  background-color: $light;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.topnavbar{
+
+  .logo{
+    color: $primaly;
+    font-family: $stylis;
+  }
+
+  
+}
+
+#topLine{
+  color: $dark;
+  width: 80%;
+  height: 10px;
+}
+
+
