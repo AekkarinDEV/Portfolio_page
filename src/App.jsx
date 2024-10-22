@@ -4,12 +4,17 @@ function App() {
 
   return (
     <>
-      <div className="container">
-        <div className="topnavbar">
-          <h1 className="logo">AekkarinDEV</h1>
-        </div>
-        <hr id="topLine"/>
+     <div className="topnavbar">
+      <div className="ltnb">
+        <img src="../public/logo.png" alt="my branding logo" id="devlogo"/>
       </div>
+      <div className="rtnb">
+        <div className="topnavmenu">
+          <a>projects</a>
+          <a>skills</a>
+        </div>
+      </div>
+     </div>
     </>
   )
 }
