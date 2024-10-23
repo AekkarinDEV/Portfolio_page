@@ -139,9 +139,29 @@ $darker: #303841;
 .content_screen{
   width: 100%;
   background-color: $white;
-  box-shadow: 10px 10px 10px 10px  $darker;
-  border-radius: 10px;
-  
+  // box-shadow: 10px 10px 10px 10px  $darker;
+  overflow: clip;
+}
+
+//homepage
+.home_page{
+  width: 100%;
+  height: 100%;
+  background-image: url("/public/noise.png");
+  background-size: 1300px;
+  .home_texts{
+    position: absolute;
+    display: flex;
+    align-items: center ;
+    height: 100vh;
+  }
+  .home_bgi{
+    display: flex;
+    justify-content: end;
+    img{
+      height: 100vh;
+    }
+  }
 }
 
 
