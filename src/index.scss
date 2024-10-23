@@ -60,6 +60,11 @@ $blue: #112D4E;
 $dark: #3A4750;
 $darker: #303841;
 
+//checker
+// div{
+//   border: solid 1px gray;
+// }
+
 //body custom
 .main_container{
   display: flex;
@@ -68,23 +73,75 @@ $darker: #303841;
 
 //side navigation bars
 .side_bar{
-  width: 120px;
+  width: 140px;
   height: 100vh;
   background-color: $white;
 
   .logo{
     height: 150px;
-    background-color: $dark;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $gray;
+    gap: 4px;
+    img{
+      height: 50%;
+    }
+    h1{
+      color: $blue;
+      font-family: $highlight;
+      font-weight: 700;
+    }
+
+    h5{
+      font-family: $inform;
+      font-size: 12px;
+      font-weight: 300;
+    }
   }
 
   .nav_menu{
     
-    .nav_menu > a {
-      background-color: #303841;
-      
-     
+    button {
+      display: block;
+      width: 100%;
+      height: 50px;
+      border: none;
+      background-color: $white;
+      font-family: $stylis;
+      font-weight: 600;
+      color: $darker;
+      font-size: large;
+    }
+    button:hover{
+      background-color: $dark;
+      color: $sky;
+      transition: 170ms;
     }
   }
+
+  .social_symbo{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    a{
+      color: $dark;
+    }
+    
+   
+  }
+}
+
+//content_screen
+.content_screen{
+  width: 100%;
+  background-color: $white;
+  box-shadow: 10px 10px 10px 10px  $darker;
+  border-radius: 10px;
+  
 }
 
 

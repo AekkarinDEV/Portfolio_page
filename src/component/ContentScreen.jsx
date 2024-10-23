@@ -2,6 +2,6 @@
 
 export default function ContentScreen() {
   return (
-    <div>ContentScreen</div>
+    <div className="content_screen">ContentScreen</div>
   )
 }
