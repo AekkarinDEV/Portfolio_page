@@ -1,21 +1,16 @@
+import Sidenavbar from "./component/Sidenavbar"
+import ContentScreen from "./component/ContentScreen"
+
+
 
 function App() {
   
 
   return (
-    <>
-     <div className="topnavbar">
-      <div className="ltnb">
-        <img src="../public/logo.png" alt="my branding logo" id="devlogo"/>
-      </div>
-      <div className="rtnb">
-        <div className="topnavmenu">
-          <a>projects</a>
-          <a>skills</a>
-        </div>
-      </div>
-     </div>
-    </>
+    <div className="main_container">
+     <Sidenavbar/>
+     <ContentScreen/>/
+    </div>
   )
 }
 
