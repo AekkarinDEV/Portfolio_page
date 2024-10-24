@@ -9,6 +9,8 @@ export default function Sidenavbar() {
             <h5>web developer</h5>
         </div>
         <div className="nav_menu">
+
+                <button>Home</button>
                 <button>About Me</button>
                 <button>My Skills</button>
                 <button>Projects</button>

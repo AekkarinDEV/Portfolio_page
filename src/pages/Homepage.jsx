@@ -5,9 +5,13 @@ export default function Homepage() {
     <div className="home_page">
         <div className="home_texts">
             <div>
-                <h1>HI!</h1>
+                <h1>Oh,Hello!</h1>
                 <h1>I'm Aekkarin Booddahloo</h1>
-                <h1>Your friendly neighbor developer</h1>
+                <h2>Your friendly neighbor developer</h2>
+                <p>
+                    this is my portfolio websites feel free
+                    to take a look at my pass projects and hire me if you love too!
+                </p>
             </div>
             
         </div>
